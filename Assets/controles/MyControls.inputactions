@@ -1,0 +1,100 @@
+{
+    "name": "MyControls",
+    "maps": [
+        {
+            "name": "ControllMapExample",
+            "id": "95a4762b-6eb9-4d48-9d6a-4acfb2b812d7",
+            "actions": [
+                {
+                    "name": "BotonSur",
+                    "type": "Button",
+                    "id": "231ce57a-b7ab-458f-a022-3bceb2290f5c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "BotonNorte",
+                    "type": "Button",
+                    "id": "9f05ac84-01e0-4a2f-9732-f4d096a07737",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "BotonEste",
+                    "type": "Button",
+                    "id": "229f8ddc-dcce-463e-8c7d-00adf2ab12d1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "BotonOeste",
+                    "type": "Button",
+                    "id": "59fc619a-9f5c-4ea2-b840-326066d1fb66",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f3a88f57-64d9-42ec-98d6-941eba7da00a",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Controles",
+                    "action": "BotonSur",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "000a28eb-16a5-43d2-a39f-f5022b3f895f",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Controles",
+                    "action": "BotonNorte",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8f522449-6421-4d38-b746-edf88ecdda3a",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Controles",
+                    "action": "BotonEste",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "25a102d6-3798-4647-a348-f0140c4202ab",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Controles",
+                    "action": "BotonOeste",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Controles",
+            "bindingGroup": "Controles",
+            "devices": []
+        }
+    ]
+}
