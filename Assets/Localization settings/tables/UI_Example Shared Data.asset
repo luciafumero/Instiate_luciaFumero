@@ -14,7 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: UI_Example
   m_TableCollectionNameGuidString: 03bd9992f55070246aaff5eac5e04f7d
-  m_Entries: []
+  m_Entries:
+  - m_Id: 61604274176
+    m_Key: _hola
+    m_Metadata:
+      m_Items: []
+  - m_Id: 901526233088
+    m_Key: _settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1430721568768
+    m_Key: New Entry
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
